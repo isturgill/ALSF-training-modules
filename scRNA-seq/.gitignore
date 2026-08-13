@@ -3,9 +3,14 @@ index
 
 gene-sets
 
-# ignore data directory contents, but retain its existence
-data
+# ignore data directory contents except for nested scripts and README for data download
+data/*
 !data/.gitkeep
+!data/tabula-muris
+data/tabula-muris/*
+!data/tabula-muris/README.md
+!data/tabula-muris/01_sra_download.sh
+!data/tabula-muris/02_bamtofastq.sh
 
 # ignore notebook results files/folders
 analysis
