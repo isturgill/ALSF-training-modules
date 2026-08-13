@@ -1,9 +1,9 @@
 # Optional data download
-If you're following along from home, are an advanced (or ambitious!) learner, and want to download the data used in this tutorial, the mouse bladder sequencing data from the *Tabula Muris* project have been deposited in the Gene Expression Omnibus (GEO) under accession [GSM3040893](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3040893). They can be downloaded from the Sequence Read Archive (SRA) in multiple ways from [SRR6835847](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR6835847&display=data-access). AWS hosts one version of the data in the original BAM format as uploaded by the authors.
+If you're following along from home, are an advanced (or ambitious!) learner, and want to download the data used in this tutorial, the mouse bladder sequencing data from the *Tabula Muris* project have been deposited in the Gene Expression Omnibus (GEO) under accession [GSM3040893](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3040893). They can be downloaded from the Sequence Read Archive (SRA) in multiple ways from [SRR6835847](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR6835847&display=data-access). AWS hosts one version of the data in the original BAM format as uploaded by the authors, which we'll use in the demonstration below.
 
 ## Prerequisites
 * [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html) - install and use for large downloads from AWS S3 buckets
-* [Docker](https://docs.docker.com/desktop/)
+* [Docker](https://docs.docker.com/desktop/) - install and use for software version control (10X `bamtofastq`)
 
 ## AWS download
 To download the original BAM using the AWS CLI, once installed, you can run the following command:
